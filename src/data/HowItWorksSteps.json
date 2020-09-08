@@ -1,0 +1,22 @@
+[
+    {
+        "step": "step 01",
+        "header": "Loan2Funds' easy-bake two minute form",
+        "text": "You only need to answer a few basic questions about your identity, employment and income. Our simple form makes for fast, secure and easy processing. In just a few minutes if approved, you’ll be ready to review your offer."
+    },
+    {
+        "step": "step 02",
+        "header": "We'll search for a loan for you",
+        "text": "Grab yourself a coffee, while we shake the money tree for you. In a couple of minutes we’ll search for a loan from our network of lenders. If you are accepted by a lender, you’ll be forwarded to their acceptance page."
+    },
+    {
+        "step": "step 03",
+        "header": "Review the terms and sign an agreement",
+        "text": "Carefully review the terms and conditions of the offer. An E-Sign page will be presented by the lender to complete the process. If you do not like the terms of the loan, you are under no obligation to accept."
+    },
+    {
+        "step": "step 04",
+        "header": "Receive the funds to your account and start spending",
+        "text": "After your sign your agreement your funds will be transferred to your account usually within 24-48 hours depending on the conditions of the loan agreement. Remember to use any loan responsibly."
+    }
+]
