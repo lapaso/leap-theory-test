@@ -42,22 +42,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.page {
-  min-height: 100vh;
-}
-html, body{
-  scroll-behavior: smooth;
-}
-
-.uc {
-  text-transform: uppercase;
-}
-
-@media (max-width: 576px) { 
-  .container{
-    width: 95% !important;
-  }
- }
-</style>

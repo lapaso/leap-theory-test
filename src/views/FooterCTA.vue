@@ -5,7 +5,7 @@
         <div class="col-lg-8">
           <h2 class="text-center uc">
             Solve your financial emergency quickly using our
-            <span class="grad-text">easy to use</span> form
+            <span class="bg-gradient grad-text">easy to use</span> form
           </h2>
         </div>
       </div>
@@ -23,35 +23,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.grad-text {
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(56, 239, 125, 1) 0%,
-    rgba(17, 153, 142, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(56, 239, 125, 1) 0%,
-    rgba(17, 153, 142, 1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(56, 239, 125, 1) 0%,
-    rgba(17, 153, 142, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: #eb7327;
-}
-
-.bg-darkgrey {
-  background-color: #1a1f21;
-}
-
-.txt-white {
-  color: #fff;
-}
-</style>

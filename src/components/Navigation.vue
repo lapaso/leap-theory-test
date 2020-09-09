@@ -1,5 +1,5 @@
 <template>
-  <ul class="nav">
+  <ul class="nav txt-white">
     <li class="nav-item" v-for="item in items" :key="item.hash">
       <a class="nav-link active" :href="item.hash">{{item.text}}</a>
     </li>
@@ -18,11 +18,3 @@ export default {
   }
 };
 </script>
-
-<style>
-ul.nav li a {
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
-}
-</style>

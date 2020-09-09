@@ -28,10 +28,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.bg-HowItWorks {
-  background-image: url("./../assets/How_it_works_Background.jpg");
-  background-size: cover;
-}
-</style>

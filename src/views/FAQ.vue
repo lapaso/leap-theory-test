@@ -31,10 +31,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.bg-FAQ {
-  background-image: url("./../assets/Frequently_Asked_Questions_Background.jpg");
-  background-size: cover;
-}
-</style>

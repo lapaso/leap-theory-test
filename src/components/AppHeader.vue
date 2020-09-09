@@ -2,11 +2,11 @@
   <div class="fixed-top container justify-content-md-center bg-header">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
-        <img src="./../assets/logo.png" alt loading="lazy" />
+        <img src="./../assets/logo.png" alt loading="lazy" class="headerLogo"/>
       </a>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <Navigation :items="items" class="uc spyScroll"></Navigation>
+        <Navigation :items="items" class="uc spyScroll" ref="window.onhashchange = funcRef;"></Navigation>
       </div>
     </nav>
   </div>
@@ -39,13 +39,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-img {
-  width: 227px;
-}
-
-.bg-header {
-  background: rgba(0, 0, 0, 0.6);
-}
-</style>

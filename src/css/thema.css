@@ -1,0 +1,113 @@
+.txt-white,
+.txt-white a {
+  color: #fff;
+}
+
+/* backgrounds */
+.content-wrapper {
+  padding: 1.3rem;
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+.bg-HowItWorks {
+  background-image: url("./../assets/How_it_works_Background.jpg");
+  background-size: cover;
+}
+
+.bg-FAQ {
+  background-image: url("./../assets/Frequently_Asked_Questions_Background.jpg");
+  background-size: cover;
+}
+
+.bg-darkgrey {
+  background-color: #1a1f21;
+}
+
+.bg-header {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bg-footer {
+  background-color: #343a40;
+}
+/* end backgrounds*/
+
+/* hiw*/
+.hiw-step {
+  width: 72px;
+  height: 72px;
+  background-color: #eceaec;
+  padding: 9px 12px;
+  text-align: left;
+  position: relative;
+}
+
+.hiw-step:before {
+  border-width: 0 4px 0 0;
+  border-color: #eceaec;
+  border-style: dashed;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -68px;
+}
+
+.hiw-step:after {
+  border-width: 8px 8px 0 8px;
+  border-color: #eceaec transparent transparent;
+  border-style: dashed;
+  position: absolute;
+  content: "";
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -76px;
+}
+
+.hiw-step.last:before,
+.hiw-step.last:after {
+  content: none;
+}
+/* end hiws*/
+
+.bg-gradient {
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(56, 239, 125, 1) 0%,
+    rgba(17, 153, 142, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(56, 239, 125, 1) 0%,
+    rgba(17, 153, 142, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(56, 239, 125, 1) 0%,
+    rgba(17, 153, 142, 1) 100%
+  );
+}
+
+.grad-text.bg-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #eb7327;
+}
+
+.get-started-btn {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 60px 10px 60px;
+  outline: 0;
+  border: 0;
+  background-size: 100% 1px;
+  -webkit-transition: background 0.2s cubic-bezier(0, 0, 0.58, 1);
+  transition: background 0.2s cubic-bezier(0, 0, 0.58, 1);
+}

@@ -82,15 +82,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.fs16{
-      font-size: 16px;
-}
-.footerNavs .nav-link {
-  padding: 0;
-}
-.bg-footer {
-  background-color: #343a40;
-}
-</style>
