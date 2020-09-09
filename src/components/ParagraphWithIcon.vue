@@ -5,7 +5,9 @@
         <h5>{{item.header}}</h5>
         {{item.text}}
       </div>
-      <div class="ml-auto pl-4 reason-icon"></div>
+      <div class="ml-auto pl-4 reason-icon">
+        <i :class="item.icon"></i>
+      </div>
     </div>
   </div>
 </template>

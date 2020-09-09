@@ -6,7 +6,7 @@
           <div class="row-xs-4">
             <img class="img-fluid" src="./../assets/logo.png" alt loading="lazy" />
           </div>© 2020 Loan2Funds
-          <sup class="p10">SM</sup>
+          <sup class="fs10">SM</sup>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 fs16 mb-5 mb-md-0">
           <h6 class="mb-4">Legal</h6>

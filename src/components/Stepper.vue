@@ -7,7 +7,7 @@
       :class="{'justify-content-end': left==='odd' && index%2!==0}"
     >
       <div class="col-3 col-sm-2 col-lg-2 text-center order-lg-last">
-        <div class="hiw-step" :class="{'last': index === items.length-1}">{{item.step}}</div>
+        <div class="hiw-step" :class="{'last': index === items.length-1}">{{item.step}} <i :class="item.icon" class="how-it-works-icon-position"></i></div>
       </div>
       <div
         class="col-9 col-sm-10 col-lg-5"

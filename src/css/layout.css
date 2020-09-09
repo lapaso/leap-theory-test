@@ -1,3 +1,5 @@
+
+
 /* core */
 html,
 body {
@@ -6,10 +8,6 @@ body {
 
 .border-radius {
   border-radius: 0;
-}
-
-.fs16 {
-  font-size: 16px;
 }
 
 ul.nav li a {
@@ -29,6 +27,12 @@ ul.nav li a {
   text-transform: uppercase;
 }
 /* end core */
+
+.how-it-works-icon-position {
+  position: absolute;
+  top: 0;
+  left: 37px;
+}
 
 .headerLogo {
   width: 227px;
@@ -76,3 +80,9 @@ ul.nav li a {
     width: 95% !important;
   }
 }
+@media (max-width: 767px) {
+  .how-it-works-icon-position {
+    top: 20px;
+  }
+}
+
