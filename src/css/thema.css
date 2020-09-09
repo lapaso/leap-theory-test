@@ -98,6 +98,10 @@
 }
 /* end hiws*/
 
+.selectedHeaderMenu {
+  background: rgba(0, 0, 0, 0.9);
+}
+
 .bg-gradient {
   background: -moz-linear-gradient(
     90deg,
@@ -127,13 +131,8 @@
     rgb(56, 150, 239) 0%,
     rgb(6, 45, 82) 100%
   );
-  background: linear-gradient(
-    90deg,
-    rgb(56, 150, 239) 0%,
-    rgb(6, 45, 82) 100%
-  );
+  background: linear-gradient(90deg, rgb(56, 150, 239) 0%, rgb(6, 45, 82) 100%);
 }
-
 
 .grad-text {
   -webkit-background-clip: text;

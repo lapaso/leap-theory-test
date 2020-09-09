@@ -14,5 +14,20 @@
 <script>
 export default {
   name: "VideoBackground",
+  mounted: function () {
+    var self = this;
+    window.addEventListener("scroll", function () {
+      let videoEl = self.$el.querySelector(".video-wrapper video");
+      let scrollTop = window.pageYOffset;
+
+      let elementHeight = self.$el.offsetHeight;
+
+      let opacity = (elementHeight - scrollTop) / elementHeight;
+
+      opacity = opacity < 0.6 ? 0.6 : opacity;
+
+      videoEl.style.opacity = opacity;
+    });
+  },
 };
 </script>
