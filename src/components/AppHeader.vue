@@ -1,12 +1,12 @@
 <template>
-  <div class="fixed-top container justify-content-md-center">
-    <nav class="navbar navbar-expand-lg navbar-light" id="app-navbar">
+  <div class="fixed-top container justify-content-md-center bg-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
         <img src="./../assets/logo.png" alt loading="lazy" />
       </a>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <Navigation :items="items" class="uc"></Navigation>
+        <Navigation :items="items" class="uc spyScroll"></Navigation>
       </div>
     </nav>
   </div>
@@ -16,8 +16,8 @@
 import Navigation from "./Navigation";
 export default {
   name: "AppHeader",
-  components:{
-    Navigation
+  components: {
+    Navigation,
   },
   data: function () {
     return {
@@ -43,5 +43,9 @@ export default {
 <style scoped>
 img {
   width: 227px;
+}
+
+.bg-header {
+  background: rgba(0, 0, 0, 0.6);
 }
 </style>

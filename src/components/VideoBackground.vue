@@ -36,6 +36,7 @@ export default {
   min-height: 100vh;
   height: 100%;
   object-fit: cover;
+  opacity: 0.7;
 }
 .video-background-wrapper {
   width: 100%;

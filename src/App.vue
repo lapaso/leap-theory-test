@@ -1,7 +1,7 @@
 <template>
   <div id="app" class>
     <AppHeader></AppHeader>
-    <div data-spy="scroll" data-target="#app-navbar">
+    <div data-spy="scroll" data-target=".spyScroll">
       <div>
         <VideoBackground>
           <Home></Home>
@@ -47,8 +47,17 @@ export default {
 .page {
   min-height: 100vh;
 }
+html, body{
+  scroll-behavior: smooth;
+}
 
 .uc {
   text-transform: uppercase;
 }
+
+@media (max-width: 576px) { 
+  .container{
+    width: 95% !important;
+  }
+ }
 </style>

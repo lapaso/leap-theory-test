@@ -1,10 +1,12 @@
 <template>
   <section class="page py-5 bg-FAQ" id="FAQ">
-    <div class="container">
+    <div class="container content-wrapper">
       <h2 class="text-center uc mb-5">Frequently Asked Questions</h2>
 
       <div class="row justify-content-center mb-5">
-        <Accordion :items="items" :openedItems="[0]"></Accordion>
+        <div class="col-lg-8">
+          <Accordion :items="items" :openedItems="[0]"></Accordion>
+        </div>
       </div>
       <GetStartedButton></GetStartedButton>
     </div>

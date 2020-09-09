@@ -3,18 +3,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-8 text-left mb-4 mb-md-0">
-          <div class="mb-4">
-            <img src="./../assets/logo.png" alt loading="lazy" />
+          <div class="row-xs-4">
+            <img class="img-fluid" src="./../assets/logo.png" alt loading="lazy" />
           </div>© 2020 Loan2Funds
           <sup class="p10">SM</sup>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 fs16 mb-5 mb-md-0">
           <h6 class="mb-4">Legal</h6>
-          <Navigation :items="legalItems" class="footerNavs"></Navigation>
+          <Navigation :items="legalItems" class="footerNavs flex-column"></Navigation>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 fs16">
-          <h6 class="mb-4">Company</h6>
-          <Navigation :items="companyItems" class="footerNavs"></Navigation>
+          <h6 class="mb-4 spyScroll">Company</h6>
+          <Navigation :items="companyItems" class="footerNavs flex-column"></Navigation>
         </div>
       </div>
     </div>
@@ -62,15 +62,15 @@ export default {
           text: "Home",
         },
         {
-          hash: "/#why-choose-us",
+          hash: "#WhyChoose",
           text: "Why Choose Us",
         },
         {
-          hash: "/#how-it-works",
+          hash: "#HowItWorks",
           text: "How it Works",
         },
         {
-          hash: "/#faq",
+          hash: "#FAQ",
           text: "FAQ",
         },
         {

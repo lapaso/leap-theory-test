@@ -1,18 +1,18 @@
 <template>
   <section class="page" id="Home">
-    <div id="hero-solid" class="d-flex align-items-center justify-content-center">
-      <div>
-        <h1 class="uc grad-text mb-4">Need Cash for Your Next Pay Day?</h1>
-        <h2 class="uc mb-4">Loans from $100 - $1,000 are only moments away</h2>
-        <ul class="tick-list mb-4">
-          <li>Fast Real Time Results</li>
-          <li>All Credit Types Accepted</li>
-          <li>Safe and Secure</li>
-        </ul>
-
-        <GetStartedButton></GetStartedButton>
-        <button type="button" class="btn btn-cta uc trigger-form">Get Started</button>
+    <div class="container content-wrapper">
+      <h1 class="text-center uc grad-text mb-4">Need Cash for Your Next Pay Day?</h1>
+      <div class="row justify-content-center  mb-5">
+        <div class="col-lg-8">
+          <h2 class="uc mb-4">Loans from $100 - $1,000 are only moments away</h2>
+          <ul class="tick-list mb-4">
+            <li>Fast Real Time Results</li>
+            <li>All Credit Types Accepted</li>
+            <li>Safe and Secure</li>
+          </ul>
+        </div>
       </div>
+      <GetStartedButton></GetStartedButton>
     </div>
   </section>
 </template>
@@ -27,5 +27,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+.content-wrapper {
+  padding: 1.3em;
+  background-color: white;
+  /* border-radius: 1.3em; */
+  opacity: 0.8;
+}
 </style>
