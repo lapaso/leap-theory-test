@@ -29,9 +29,7 @@ export default {
 
 <style>
 .content-wrapper {
-  padding: 1.3em;
-  background-color: white;
-  /* border-radius: 1.3em; */
-  opacity: 0.8;
+  padding: 1.3rem;
+  background-color: rgba(256, 256, 256, 0.5);;
 }
 </style>

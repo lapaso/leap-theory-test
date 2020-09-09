@@ -1,5 +1,5 @@
 <template>
-  <div class="box bg-white mb-3">
+  <div class="box mb-3">
     <div class="d-flex align-items-center">
       <div>
         <h5>{{item.header}}</h5>

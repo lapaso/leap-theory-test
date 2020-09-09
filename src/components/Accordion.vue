@@ -1,18 +1,20 @@
 <template>
   <div class="accordion" :id="componentId">
-    <div class="card" v-for="(item,index) in items" :key="item.id ? item.id :index">
+    <div
+      class="card mb-2 border-radius"
+      v-for="(item,index) in items"
+      :key="item.id ? item.id :index"
+    >
       <slot name="header" v-bind:item="item">
         <div class="card-header" :id="headerIdTemplate+index">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link btn-block text-left"
-              type="button"
-              data-toggle="collapse"
-              aria-expanded="true"
-              :data-target="'#'+bodyIdTemplate+index"
-              :aria-controls="bodyIdTemplate+index"
-            >{{item.header}}</button>
-          </h2>
+          <h5
+            role="button"
+            class="mb-0"
+            data-toggle="collapse"
+            aria-expanded="true"
+            :data-target="'#'+bodyIdTemplate+index"
+            :aria-controls="bodyIdTemplate+index"
+          >{{item.header}}</h5>
         </div>
       </slot>
 
