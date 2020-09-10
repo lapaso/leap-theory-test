@@ -19,7 +19,7 @@
 
       <slot name="body" v-bind:item="item">
         <div
-          class="accordion-body"
+          class="accordion-body collapse"
           :id="bodyIdTemplate+index"
           :class="{ show: openedItems.indexOf(item.id ? item.id :index)!==-1 }"
           :aria-labelledby="headerIdTemplate+index"
