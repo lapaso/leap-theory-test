@@ -1,6 +1,6 @@
 <template>
   <section class="pt-5 bg-FAQ page d-flex flex-column" id="FAQ">
-    <div class="container content-wrapper bg-content-wrapper">
+    <div class="container content-wrapper bg-content-wrapper  mb-5">
       <h2 class="text-center uc mb-5">Frequently Asked Questions</h2>
 
       <div class="row justify-content-center mb-5">
