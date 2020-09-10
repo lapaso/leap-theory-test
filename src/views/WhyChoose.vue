@@ -1,6 +1,6 @@
 <template>
   <section class="page py-5" id="WhyChoose">
-    <div class="container content-wrapper">
+    <div class="container content-wrapper bg-content-wrapper">
       <h2 class="text-center uc mb-5">Why Choose Loan2Funds?</h2>
 
       <div class="row justify-content-center mb-5">

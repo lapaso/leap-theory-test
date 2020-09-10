@@ -1,6 +1,6 @@
 <template>
   <section class="page" id="Home">
-    <div class="container content-wrapper">
+    <div class="container content-wrapper bg-content-wrapper">
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <h1 class="uc bg-gradient grad-text mb-4">Need Cash for Your Next Pay Day?</h1>

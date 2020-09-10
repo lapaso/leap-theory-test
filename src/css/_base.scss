@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("./fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+/*font-size*/
+.fs10 {
+  font-size: 10px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fs40 {
+  font-size: 40px;
+}
+.fs60 {
+  font-size: 60px;
+}
+.fs80 {
+  font-size: 80px;
+}
