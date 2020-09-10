@@ -1,5 +1,5 @@
 <template>
-  <section class="page py-5 bg-FAQ" id="FAQ">
+  <section class="pt-5 bg-FAQ page d-flex flex-column" id="FAQ">
     <div class="container content-wrapper">
       <h2 class="text-center uc mb-5">Frequently Asked Questions</h2>
 
@@ -10,6 +10,8 @@
       </div>
       <GetStartedButton></GetStartedButton>
     </div>
+
+    <FooterCTA></FooterCTA>
   </section>
 </template>
 
@@ -17,12 +19,14 @@
 import FaqNotes from "./../data/FaqNotes";
 import Accordion from "./../components/Accordion";
 import GetStartedButton from "./../components/GetStartedButton";
+import FooterCTA from "./FooterCTA";
 
 export default {
   name: "FAQ",
   components: {
     Accordion,
     GetStartedButton,
+    FooterCTA,
   },
   data: function () {
     return {
@@ -31,3 +35,6 @@ export default {
   },
 };
 </script>
+
+<style>
+</style>

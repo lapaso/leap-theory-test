@@ -1,18 +1,7 @@
-
-
 /* core */
 html,
 body {
   scroll-behavior: smooth;
-}
-
-.border-radius {
-  border-radius: 0;
-}
-
-ul.nav li a {
-  font-weight: 700;
-  font-size: 16px;
 }
 
 .footerNavs .nav-link {
@@ -26,12 +15,22 @@ ul.nav li a {
 .uc {
   text-transform: uppercase;
 }
+
+.mr-15p {
+  margin-right: 15%;
+}
 /* end core */
 
 .how-it-works-icon-position {
   position: absolute;
-  top: 0;
-  left: 37px;
+  top: 11px;
+  left: 36px;
+}
+
+.paragraph-box {
+  padding: 20px 30px;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .headerLogo {
@@ -82,7 +81,7 @@ ul.nav li a {
 }
 @media (max-width: 767px) {
   .how-it-works-icon-position {
-    top: 20px;
+    top: 27px;
+    left: 35px;
   }
 }
-

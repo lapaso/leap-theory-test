@@ -1,12 +1,12 @@
 <template>
-  <div class="fixed-top container justify-content-md-center bg-header">
+  <div class="fixed-top container-fluid justify-content-md-center bg-header">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand ml-5 pl-5" href="#">
         <img src="./../assets/logo.png" alt loading="lazy" class="headerLogo"/>
       </a>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <Navigation :items="items" class="uc spyScroll" ref="navs"></Navigation>
+      <div class="collapse navbar-collapse justify-content-end mr-15p" id="navbarSupportedContent">
+        <Navigation :items="items" class="uc spyScroll font-header-menu" ref="navs"></Navigation>
       </div>
     </nav>
   </div>

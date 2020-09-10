@@ -3,28 +3,34 @@
     <div class="container content-wrapper">
       <h2 class="text-center uc mb-5">Why Choose Loan2Funds?</h2>
 
-      <div class="row justify-content-center">
-        <div class="col-lg-8" v-for="(item,index) in items" :key="index">
-          <ParagraphWithIcon :item="item"/>
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8">
+          <div class="paragraph-box bg-white mb-3" v-for="(item,index) in items" :key="index">
+            <ParagraphWithIcon :item="item" />
+          </div>
         </div>
       </div>
+
+      <GetStartedButton></GetStartedButton>
     </div>
   </section>
 </template>
 
 <script>
-import WhyChooseNotes from "./../data/WhyChooseNotes"
-import ParagraphWithIcon from "./../components/ParagraphWithIcon"
+import WhyChooseNotes from "./../data/WhyChooseNotes";
+import ParagraphWithIcon from "./../components/ParagraphWithIcon";
+import GetStartedButton from "./../components/GetStartedButton";
 
 export default {
   name: "WhyChoose",
-  components:{
-    ParagraphWithIcon
+  components: {
+    ParagraphWithIcon,
+    GetStartedButton
   },
-  data:function(){
-    return{
-      items: WhyChooseNotes
-    }
-  }
+  data: function () {
+    return {
+      items: WhyChooseNotes,
+    };
+  },
 };
 </script>

@@ -4,17 +4,17 @@
       <div class="row">
         <div class="col-md-6 col-lg-8 text-left mb-4 mb-md-0">
           <div class="row-xs-4">
-            <img class="img-fluid" src="./../assets/logo.png" alt loading="lazy" />
+            <img class="footer-logo" src="./../assets/logo.png" alt loading="lazy" />
           </div>© 2020 Loan2Funds
           <sup class="fs10">SM</sup>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 fs16 mb-5 mb-md-0">
           <h6 class="mb-4">Legal</h6>
-          <Navigation :items="legalItems" class="footerNavs flex-column"></Navigation>
+          <Navigation :items="legalItems" class="footerNavs flex-column fs-16"></Navigation>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-2 fs16">
           <h6 class="mb-4 spyScroll">Company</h6>
-          <Navigation :items="companyItems" class="footerNavs flex-column"></Navigation>
+          <Navigation :items="companyItems" class="footerNavs flex-column fs-16"></Navigation>
         </div>
       </div>
     </div>

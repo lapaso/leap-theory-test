@@ -1,5 +1,5 @@
 <template>
-  <section id="footer-cta" class="py-5 bg-darkgrey txt-white">
+  <section id="footer-cta" class="py-5 bg-darkgrey txt-white mt-auto">
     <div class="container">
       <div class="row justify-content-center mb-5">
         <div class="col-lg-8">

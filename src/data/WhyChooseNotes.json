@@ -7,12 +7,12 @@
     {
         "header": "Funds as Soon as the Next Business Day",
         "text": "Our service connects you with lenders to conveniently get your Funds as quickly as possible.",
-        "icon":  ["icon-bill","bg-gradient","grad-text","fs30"]
+        "icon":  ["icon-bill","bg-gradient","grad-text","fs40"]
     },
     {
         "header": "All Credit Types Accepted",
         "text": "Our lender network allows your request to be seen by multiple lenders, which should increase your odds of acceptance.",
-        "icon":  ["icon-check","bg-gradient","grad-text","fs30"]
+        "icon":  ["icon-check","bg-gradient","grad-text","fs40"]
     },
     {
         "header": "Safe and Secure",

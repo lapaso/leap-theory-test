@@ -1,33 +1,30 @@
 <template>
-  <div class="accordion" :id="componentId">
+  <div :id="componentId">
     <div
-      class="card mb-2 border-radius"
+      class="card mb-2 accordion-box"
       v-for="(item,index) in items"
       :key="item.id ? item.id :index"
     >
       <slot name="header" v-bind:item="item">
-        <div class="card-header" :id="headerIdTemplate+index">
-          <h5
-            role="button"
-            class="mb-0"
-            data-toggle="collapse"
-            aria-expanded="true"
-            :data-target="'#'+bodyIdTemplate+index"
-            :aria-controls="bodyIdTemplate+index"
-          >{{item.header}}</h5>
-        </div>
+        <h5
+          role="button"
+          class="mb-0 accordion-header"
+          data-toggle="collapse"
+          aria-expanded="true"
+          :data-target="'#'+bodyIdTemplate+index"
+          :aria-controls="bodyIdTemplate+index"
+          :id="headerIdTemplate+index"
+        >{{item.header}}</h5>
       </slot>
 
       <slot name="body" v-bind:item="item">
         <div
-          class="collapse"
+          class="accordion-body"
           :id="bodyIdTemplate+index"
           :class="{ show: openedItems.indexOf(item.id ? item.id :index)!==-1 }"
           :aria-labelledby="headerIdTemplate+index"
           :data-parent="'#'+componentId"
-        >
-          <div class="card-body">{{item.body}}</div>
-        </div>
+        >{{item.body}}</div>
       </slot>
     </div>
   </div>

@@ -10,7 +10,6 @@
 
         <HowItWorks></HowItWorks>
         <FAQ></FAQ>
-        <FooterCTA></FooterCTA>
       </div>
       <AppFooter></AppFooter>
     </div>
@@ -25,7 +24,6 @@ import FAQ from "./views/FAQ";
 import Home from "./views/Home";
 import HowItWorks from "./views/HowItWorks";
 import WhyChoose from "./views/WhyChoose";
-import FooterCTA from "./views/FooterCTA";
 import VideoBackground from "./components/VideoBackground";
 
 export default {
@@ -37,7 +35,6 @@ export default {
     Home,
     HowItWorks,
     WhyChoose,
-    FooterCTA,
     VideoBackground,
   },
 };

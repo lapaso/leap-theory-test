@@ -9,13 +9,13 @@
         "step": "step 02",
         "header": "We'll search for a loan for you",
         "text": "Grab yourself a coffee, while we shake the money tree for you. In a couple of minutes we’ll search for a loan from our network of lenders. If you are accepted by a lender, you’ll be forwarded to their acceptance page.",
-        "icon": ["icon-look","alt-bg-gradient","grad-text","fs60"]
+        "icon": ["icon-look","bg-gradient","grad-text","fs80"]
     },
     {
         "step": "step 03",
         "header": "Review the terms and sign an agreement",
         "text": "Carefully review the terms and conditions of the offer. An E-Sign page will be presented by the lender to complete the process. If you do not like the terms of the loan, you are under no obligation to accept.",
-        "icon": ["icon-license","alt-bg-gradient","grad-text","fs60"]
+        "icon": ["icon-license","bg-gradient","grad-text","fs80"]
     },
     {
         "step": "step 04",
